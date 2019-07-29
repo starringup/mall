@@ -3,6 +3,7 @@ package com.nju.mall.service.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.github.pagehelper.PageHelper;
 import com.nju.mall.mbg.mapper.PmsBrandMapper;
@@ -10,6 +11,7 @@ import com.nju.mall.mbg.model.PmsBrand;
 import com.nju.mall.mbg.model.PmsBrandExample;
 import com.nju.mall.service.PmsBrandService;
 
+@Service
 public class PmsBrandServiceImpl implements PmsBrandService{
 	
 	@Autowired

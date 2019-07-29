@@ -2,6 +2,7 @@ package com.nju.mall.service;
 
 import java.util.List;
 
+
 import com.nju.mall.mbg.model.PmsBrand;
 
 public interface PmsBrandService {
